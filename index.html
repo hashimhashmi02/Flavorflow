@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavorflow</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="name">
+                <h1>FlavorFlow</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="icon">
+                <i class="ri-search-line" id="search-icon"></i>
+                <!-- <i class="ri-search-line"></i> -->
+                <!-- <i class="ri-shopping-bag-line"></i> -->
+                <i class="ri-shopping-bag-line" id="cart-icon"></i>
+            </div>
+
+
+
+
+
+
+
+
+        </nav>
+    </header>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <img id="shop" src="images/shoopings.png" alt="">
+            <h2>Cart is Empty</h2>
+            <p>Add items to your cart</p>
+            <button class="close-button" id="close-modal">Back to Menu</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="search-modals" class="modals">
+        <div class="modal-contents">
+            <h2>Request a Dish</h2>
+            <div class="form-group">
+                <label for="search-input">Name*</label>
+                <input type="text" id="search-input" name="search" placeholder="Enter the name of the Dish" />
+            </div>
+            <div class="form-group">
+                <label for="search-input">Upload an Imange</label>
+                <input type="text" id="search-input" name="search" placeholder="Please enter URL" />
+            </div>
+            <div class="btnx-group">
+                <button class="btn btn-cancel" id="cancel-btn">Cancel</button>
+                <button class="btn btn-search" id="submit-btn">Search</button>
+            </div>
+        </div>
+    </div>
+    <section id="main1">
+        <div class="half">
+            <h1 id="intro">Authentic Home <br> food In India</h1>
+            <p id="para">flavorFlow is a courier service in which authentic home <br> cook food is delivered to you.</p>
+
+            <div class="btn">
+                <input id="place" type="text" placeholder="Search food you love">
+                <button id="but">Search</button>
+            </div>
+        </div>
+
+        <div class="otherhalf">
+            <img id="cooker" src="images/cuate.png" alt="cook">
+        </div>
+    </section>
+
+    <section class="foodgrid">
+        <h1 id="hero1">Home Kitchen</h1>
+        <div class="grid-container" id="pizzaGrid"></div>
+    </section>
+
+    <section class="popular-section">
+        <h2 class="section-title">Popular Items</h2>
+        <div class="slider-container">
+            <button class="nav-button prev"><img src="images/Arrow.png" alt=""></button>
+            <div class="slider">
+
+            </div>
+            <button class="nav-button next"><img src="images/Arrow.png" alt=""></button>
+        </div>
+        <button class="request-button">Request a Dish</button>
+    </section>
+
+
+    <section class="video-section">
+        <div class="story">
+            <div>
+                <h2 id="part1"> We are providing best<br> home cooked food delivery service.</h2>
+            </div>
+            <div>
+                <p id="part2">Away from home and craving the tasty homemade recipes ?</p>
+            </div>
+            <div>
+                <p id="part3">Choose form a selection of our delicious home cooked dishes </p>
+            </div>
+
+
+        </div>
+        <div class="video">
+            <video width="800" height="600" loop>
+                <source src="images/Untitled video - Made with Clipchamp.mp4">
+            </video>
+            <div class="background">
+
+            </div>
+            <button id="playButton" class="play-button">▶</button>
+        </div>
+
+    </section>
+
+
+    <section class="About-section">
+        <div class="question">
+            <h2 id="ques">Do you have a question <br>
+                or want to become a seller?</h2>
+
+            <div class="form">
+                <p>Fill the form and our manager will contact you within the next 48 hours.</p>
+
+                <div class="inputs">
+                    <input class="input-field" type="text" placeholder="Your Name">
+                    <input class="input-field" type="email" placeholder="Your e-mail">
+                </div>
+
+                <div class="message">
+                    <textarea id="input-message" placeholder="Your message"></textarea>
+                </div>
+
+                <div class="bt">
+                    <button id="btns">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="scooter">
+            <img id="drivers" src="images/driver.png" alt="Delivery Scooter">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <h1>FlavorFlow</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#"><i class="ri-meta-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
