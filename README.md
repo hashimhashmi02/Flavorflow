@@ -1,15 +1,5 @@
 # Food Ordering System
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 The **Food Ordering System** is a web-based application that allows users to browse a menu, add items to their cart, and place orders online. It is designed to streamline the food ordering process for restaurants and customers.
 
@@ -36,10 +26,9 @@ The **Food Ordering System** is a web-based application that allows users to bro
 ## Usage
 - Open the application in a browser.
 - Browse the menu and add items to the cart.
-- Proceed to checkout and view order summary.
-
-## Screenshots
+- Proceed to checkout and view order summary.## Screenshots
 *(Add screenshots of the UI here)*
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
